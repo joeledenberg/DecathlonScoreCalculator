@@ -1,0 +1,13 @@
+server:
+  requestLog:
+    appenders: []
+  applicationConnectors:
+    - type: http
+      port: 8080
+
+
+logging:
+  level: DEBUG
+  loggers:
+      org.eclipse: ERROR
+      freemarker.cache: ERROR
